@@ -1,5 +1,5 @@
-# VERSION: 0.07
-# AUTHORS: nindogo (nindogo@gmail.com)
+# VERSION: 0.071
+# AUTHORS: nindogo (nindogo@gmail.com), github.com/welliegeee (restricting to higher quality results)
 
 # LICENSING INFORMATION
 
@@ -22,8 +22,10 @@ class torrentgalaxy(object):
     name = 'TorrentGalaxy'
     supported_categories = {
         'all': '',
-        'movies': 'c3=1&c46=1&c45=1&c42=1&c4=1&c1=1&',
-        'tv': 'c41=1&c5=1&c6=1&c7=1&',
+        'movies': 'c3=1&c42=1&c4=1',
+                  #'c3=1&c46=1&c45=1&c42=1&c4=1&c1=1&', Removed cams & low quality.
+        'tv': 'c41=1&c11=1&c6=1&c7=1',
+                  #'c41=1&c5=1&c6=1&c7=1&', Removed low quality
         'music': 'c23=1&c24=1&c25=1&c26=1&c17=1&',
         'games': 'c43=1&c10=1&',
         'anime': 'c28=1&',
